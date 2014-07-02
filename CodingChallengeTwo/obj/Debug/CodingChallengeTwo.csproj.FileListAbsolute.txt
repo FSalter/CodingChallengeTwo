@@ -1,1 +1,6 @@
 E:\Work\CodingChallengeTwo\CodingChallengeTwo\bin\Debug\CodingChallengeTwo.exe.config
+E:\Work\CodingChallengeTwo\CodingChallengeTwo\bin\Debug\CodingChallengeTwo.exe
+E:\Work\CodingChallengeTwo\CodingChallengeTwo\bin\Debug\CodingChallengeTwo.pdb
+E:\Work\CodingChallengeTwo\CodingChallengeTwo\obj\Debug\CodingChallengeTwo.csprojResolveAssemblyReference.cache
+E:\Work\CodingChallengeTwo\CodingChallengeTwo\obj\Debug\CodingChallengeTwo.exe
+E:\Work\CodingChallengeTwo\CodingChallengeTwo\obj\Debug\CodingChallengeTwo.pdb
