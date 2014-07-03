@@ -41,8 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Counting.cs" />
+    <Compile Include="IsTLSChecker.cs" />
+    <Compile Include="LookThroughDocument.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StartCounting.cs" />
+    <Compile Include="StartToCount.cs" />
+    <Compile Include="UpdateDictionary.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

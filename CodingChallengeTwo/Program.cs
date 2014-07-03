@@ -1,37 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Services;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
 namespace CodingChallengeTwo
 {
-    class Program
+    public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
-        var counter = 0;
-        string line;
-        var tls = 0;
-            
-        // Read the file and display it line by line.
-        var file =
-           new StreamReader("tls.txt");
-        while ((line = file.ReadLine()) != null)
-        {
-            counttls.add();
-        }
-        file.Close();
+            Dictionary<string, int> frequencies = new Dictionary<string, int>();
+            var looking = new LookThroughDocument();
+            looking.StartLooking(frequencies);
+            /*foreach (KeyValuePair<string, int> kvp in frequencies)
+            {
+                Console.WriteLine("TLS = {0}, Frequency = {1}", kvp.Key, kvp.Value);
+            }
+            Console.ReadLine();*/
+            Console.WriteLine("Enter frequency you would like to view:");
+            int frequency = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(frequency + 1);
+            Console.ReadLine();
+            var findtls = new FindFrequencies();
+            findtls.PrintTLS(frequency, frequencies);
+            Console.ReadLine();
 
-        // Suspend the screen.
-        var readLine = Console.ReadLine();
-        }
+            }
     }
 
-    internal class counttls
+    public class FindFrequencies
     {
-        public static void add()
+        public void PrintTLS(int frequency, Dictionary<string, int> frequencies)
         {
             throw new NotImplementedException();
         }
