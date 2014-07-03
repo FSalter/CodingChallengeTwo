@@ -12,30 +12,22 @@ namespace CodingChallengeTwo
     {
         public static void Main()
         {
-            Dictionary<string, int> frequencies = new Dictionary<string, int>();
+            var frequencies = new Dictionary<string, int>();
             var looking = new LookThroughDocument();
             looking.StartLooking(frequencies);
+
             /*foreach (KeyValuePair<string, int> kvp in frequencies)
             {
                 Console.WriteLine("TLS = {0}, Frequency = {1}", kvp.Key, kvp.Value);
             }
             Console.ReadLine();*/
+
             Console.WriteLine("Enter frequency you would like to view:");
-            int frequency = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(frequency + 1);
-            Console.ReadLine();
+            var frequency = Convert.ToInt32(Console.ReadLine());
             var findtls = new FindFrequencies();
             findtls.PrintTLS(frequency, frequencies);
             Console.ReadLine();
 
             }
-    }
-
-    public class FindFrequencies
-    {
-        public void PrintTLS(int frequency, Dictionary<string, int> frequencies)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

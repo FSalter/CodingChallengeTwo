@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Counting.cs" />
+    <Compile Include="FindFrequencies.cs" />
     <Compile Include="IsTLSChecker.cs" />
     <Compile Include="LookThroughDocument.cs" />
     <Compile Include="Program.cs" />
