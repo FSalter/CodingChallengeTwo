@@ -22,7 +22,7 @@ namespace CodingChallengeTwo
             }
             Console.ReadLine();*/
 
-            Console.WriteLine("Enter frequency you would like to view:");
+            Console.Write("Enter frequency you would like to view: ");
             var frequency = Convert.ToInt32(Console.ReadLine());
             var findtls = new FindFrequencies();
             findtls.PrintTLS(frequency, frequencies);
